@@ -1,6 +1,7 @@
 package pl.kurs.exceptions;
 
 public class InvalidEquationFormatException extends Exception{
-    public InvalidEquationFormatException(String s) {
+    public InvalidEquationFormatException(String message) {
+        super(message);
     }
 }
